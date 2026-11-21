@@ -1,0 +1,23 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets & Environment
+.env
+.env.local
+
+# Local Runtime Databases & Legacy Artifacts
+database/
+users.db
+users.db-journal
+db/chroma.sqlite3
+db/794d9635-7cc1-4144-bf72-6a25c82e4910/
+
+# IDE & Scratch Directories
+.idea/
+.vscode/
+.artifacts/
